@@ -17,7 +17,6 @@
     <div class="contenedor_maestro">
       <h3 class="headline">Visualización de Baterías</h3>
   
-      <!-- Contenedor para los arcos -->
       <div class="baterias_container">
         {#each numbers as n}
           <div class="baterias_wrapper">
@@ -104,7 +103,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: -300px; /* Desplazamiento hacia arriba */
+      margin-top: -300px; /* (mover contenido hacia arriba) */
     }
   
     .baterias_container {
@@ -118,7 +117,7 @@
     }
   
     .headline {
-      margin-top: 100px; /* Agrega la unidad de medida, por ejemplo, píxeles */
+      margin-top: 100px; 
       font-size: 50px;
       text-align: center;
     }
